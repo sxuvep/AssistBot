@@ -3,6 +3,7 @@ using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Integration.AspNet.Core;
 using Microsoft.Bot.Schema;
 
+
 [Route("api/messages")]
 [ApiController]
 public class BotController : ControllerBase
@@ -14,6 +15,12 @@ public class BotController : ControllerBase
     {
         _bot = bot;
         _adapter = adapter;
+    }
+
+    [HttpGet]
+    public IActionResult Get()
+    {
+        return Ok("AssistBot is running!");
     }
 
     [HttpPost]
