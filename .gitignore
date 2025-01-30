@@ -1,0 +1,54 @@
+# Build output
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.so
+*.dylib
+*.a
+*.o
+*.idb
+*.obj
+*.lib
+
+# User-specific files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core settings
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Logs and cache
+*.log
+logs/
+node_modules/
+wwwroot/lib/
+publish/
+coverage/
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Entity Framework Migrations
+Migrations/
+
+# Rider and JetBrains
+.idea/
+*.sln.iml
+
+# VS Code Workspace
+.vscode/
+
+# Mac/Linux
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
